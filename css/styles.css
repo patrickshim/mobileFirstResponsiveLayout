@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+body ,h1, h3 {
+  text-align: center;
+  hyphens: auto;
+}
+
+.profile-img {
+  width: 100%;
+  padding: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.img {
+  width: 100%;
+  padding: 15px;
+}
+
+.nav li {
+  display: block;
+  border: 1px solid white;
+  margin-bottom: 2px;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav ul {
+  padding-left: 0;
+}
+
+#portfolio h3 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+#contact p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+hr {
+  margin-top: 80px;
+}
+
+#copyright p {
+  float: left;
+  padding-bottom: 10px;
+}
+
+#copyright p:last-child {
+  float: right;
+  padding-bottom: 10px;
+
+}
+
+#copyright a {
+  text-decoration: none;
+}
