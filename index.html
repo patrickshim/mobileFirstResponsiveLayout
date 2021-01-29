@@ -3,77 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap" rel="stylesheet">
   <title>responsive-website</title>
 </head>
 
-<header>
-  <nav class="nav">
-  <h1>Patrick Shim</h1>
-    <ul>
-      <li><a href="#top">Home</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>     
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <img class="profile-img" src="images/responsive-layout-profile.png" alt="responsive lay out profile picture">
-  <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p> 
-</header>
-
 <body>
-  <div id="portfolio">
-   <h3>Portfolio</h3>
-    <div class="portfolio-1">
-      <img class="img" src="images/portfolio-1.png" alt="portfolio-1 picture">
-      <h2>Marketing Page</h2>
-      <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-    </div>
+  <div class="wrapper"> 
+    <header>
+      <nav class="nav">
+        <h1>Patrick Shim</h1>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>     
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
 
-    <div>
-      <img class="img" src="images/portfolio-2.png" alt="portfolio-2 picture">
-      <h2>Search Page</h2>
-      <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-    </div>
+      <img class="profile-img" src="images/responsive-layout-profile.png" alt="responsive lay out profile picture">
 
-    <div>
-      <img class="img" src="images/portfolio-3.png" alt="portfolio-3 picture">
-      <h2>Travel app</h2>
-      <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-    </div>
+      <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </header>
 
-    <div>
-      <img class="img" src="images/portfolio-4.png" alt="portfolio-4 picture">
-      <h2>Map of Favorite Spots</h2>
-      <p>This project uses mapping apis to plot points for my favoirte spots in the city for a do-it-yourself walking tour</p>
-    </div>
+    <main>
+      <div id="portfolio">
+        <h3>Portfolio</h3>
+        <content>
+          <div class="portfolio-1">
+            <img class="img" src="images/portfolio-1.png" alt="portfolio-1 picture">
+            <h2>Marketing Page</h2>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+          </div>
+        </content>
 
-    <div>
-      <img class="img" src="images/portfolio-5.png" alt="portfolio-5 picture">
-      <h2>Photo Gallery</h2>
-      <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-    </div>
+        <content>
+          <div>
+            <img class="img" src="images/portfolio-2.png" alt="portfolio-2 picture">
+            <h2>Search Page</h2>
+            <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          </div>
+        </content>
 
-    <div>
-      <img class="img" src="images/portfolio-6.png" alt="portfolio-6 picture">
-      <h2>Calculator</h2>
-      <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</
-    </div>
+        <content>
+          <div>
+            <img class="img" src="images/portfolio-3.png" alt="portfolio-3 picture">
+            <h2>Travel app</h2>
+            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          </div>
+        </content>
+
+        <content>
+          <div>
+            <img class="img" src="images/portfolio-4.png" alt="portfolio-4 picture">
+            <h2>Map of Favorite Spots</h2>
+            <p>This project uses mapping apis to plot points for my favoirte spots in the city for a do-it-yourself walking tour</p>
+          </div>
+        </content>
+
+        <content>
+          <div>
+            <img class="img" src="images/portfolio-5.png" alt="portfolio-5 picture">
+            <h2>Photo Gallery</h2>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          </div>
+        </content>
+
+        <content>
+          <div>
+            <img class="img" src="images/portfolio-6.png" alt="portfolio-6 picture">
+            <h2>Calculator</h2>
+            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</
+          </div>
+        </content>
+
+        <div id="contact">
+          <h3>Contact</h3>
+          <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+          <p>Phone &nbsp; <strong>+1 (111) 555-1234</strong></p>
+          <p>Email &nbsp; <strong>email@yoursite.com</strong></p>
+        </div>
+      </div>
+    </main>
+
+    <hr>
+
+    <footer>
+      <div id="copyright">
+        <ul>
+          <p>Patrick Shim</p>
+          <p><a href="#top">Back to top</a></p>
+        </ul>
+    </footer>  
   </div>
-    
-  <div id="contact">
-    <h3>Contact</h3>
-    <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-    <p>Phone &nbsp; <strong>+1 (111) 555-1234</strong></p>
-    <p>Email &nbsp; <strong>email@yoursite.com</strong></p>
-  </div>
-
-  <hr>
-
-  <footer>
-  <div id="copyright">
-    <p>Patrick Shim</p>
-    <p><a href="#top">Back to top</a></p>
-  </footer>  
 </body>
 </html>

@@ -2,62 +2,90 @@
   box-sizing: border-box;
 }
 
-body ,h1, h3 {
+body {
   text-align: center;
-  hyphens: auto;
+  font-family: 'Rokkitt', serif;
 }
 
-.profile-img {
-  width: 100%;
-  padding: 3em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
 }
 
-.img {
-  width: 100%;
-  padding: 15px;
+h2 {
+  font-weight: bold;
+  padding: 25px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 50px;
 }
 
 .nav li {
-  display: block;
+  padding: 10px;
   border: 1px solid white;
-  margin-bottom: 2px;
-  padding: 0.5em;
-  font-weight: bold;
+  margin: 5px;
+  background: lightpink;
 }
 
 .nav a {
   text-decoration: none;
 }
 
-.nav ul {
-  padding-left: 0;
-}
-
-#portfolio h3 {
-  margin-top: 90px;
+header p {
+  line-height: 25px;
+  padding: 20px;
   margin-bottom: 50px;
 }
 
-#contact p {
-  margin-top: 30px;
+.wrapper {
+  width: 100%;
+}
+
+.profile-img {
+  width: 100%;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+
+.img {
+  width: 100%;
+}
+
+#portfolio img {
+  padding: 15px;
+}
+
+#portfolio p {
+  padding: 20px;
+  padding-top: 0;
+}
+
+#contact {
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 
-hr {
-  margin-top: 80px;
+#contact h3 {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+#contact p:first-child {
+  padding-bottom: 50px;
 }
 
 #copyright p {
   float: left;
-  padding-bottom: 10px;
+  margin: 10px 10px;
+  margin-bottom: 20px;
 }
 
 #copyright p:last-child {
   float: right;
-  padding-bottom: 10px;
-
 }
 
 #copyright a {
