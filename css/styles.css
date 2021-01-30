@@ -10,7 +10,8 @@ body {
 h1 {
   font-weight: bold;
   font-size: 30px;
-  padding: 20px;
+  padding: 30px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -20,15 +21,14 @@ h2 {
 
 h3 {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 25px;
   padding: 50px;
 }
 
 .nav li {
   padding: 10px;
   border: 1px solid white;
-  margin: 5px;
-  background: lightpink;
+  /* margin: 5px; */
 }
 
 .nav a {
@@ -78,16 +78,107 @@ header p {
   padding-bottom: 50px;
 }
 
-#copyright p {
-  float: left;
-  margin: 10px 10px;
-  margin-bottom: 20px;
-}
-
-#copyright p:last-child {
-  float: right;
-}
-
 #copyright a {
+  float: right;
   text-decoration: none;
+
+}
+
+@media screen and (max-width: 767px) {
+  .large {
+    display: none;
+  }
+
+  .small {
+    padding: 20px;
+  }
+  #copyright p {
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px;
+    padding-bottom: 20px;
+  }
+
+  
+  h2 {
+    font-weight: bold;
+    padding: 25px;
+    font-size: 28px;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 50px;
+    clear: both;
+  }
+
+  header ul {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  nav li {
+    display: inline;
+  }
+
+  .profile-img {
+    float: right;
+    width: 40%;
+    padding: 20px;
+    margin: 40px;
+  }
+
+  header p {
+    padding-top: 54px;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .column {
+    float: left;
+    width: 46%;
+    padding: 5px;
+  }
+
+  #contact {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #contact h3{
+    padding-top: 70px;
+  }
+
+  #portfolio p {
+    font-size: 20px;
+    padding: 0 60 40 40;
+  }
+
+  #contact p{
+    font-size: 20px;
+  }
+
+  .small {
+    display: none;
+  }
+
+  .large {
+    padding: 20px;
+  }
+
+  #copyright p {
+    float: left;
+    padding: 20px;
+  }
+  
 }
