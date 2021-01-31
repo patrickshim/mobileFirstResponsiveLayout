@@ -121,6 +121,7 @@ hr {
   }
 
   h3 {
+    font-size: 30px;
     padding-bottom: 30px;
     clear: both;
   }
@@ -205,10 +206,6 @@ hr {
     padding-left: 20px;
   }
 
-  h3, header p,  #copyright a, #copyright p {
-    font-size: 35px;
-  }
-
   ul {
     margin-top: 25px;
   }
@@ -226,10 +223,14 @@ hr {
   }
 
   #contact-me {
-    padding: 0px 50px 50px 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
   }
 
-  .container-1 a {
+  .container-1 a,  #copyright p, #copyright a  {
     font-size: 30px;
   }
 
