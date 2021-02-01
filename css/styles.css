@@ -8,7 +8,16 @@ body {
 }
 
 h1, h2, h3 {
+  color: #5CC8D7FF;
   font-weight: bold;
+}
+
+a, p {
+  color: #B1624EFF
+}
+
+p {
+  color:#FFA177FF;
 }
 
 h1 {
@@ -38,6 +47,10 @@ h3 {
   text-decoration: none;
 }
 
+a:hover {
+  color: #5CC8D7FF;
+}
+
 header p {
   line-height: 20px;
   padding: 20px;
@@ -64,6 +77,11 @@ header p {
 
 hr {
   margin: 0;
+}
+
+#skills img {
+  width: 80%;
+  position: relative;
 }
 
 #contact {
@@ -155,6 +173,10 @@ hr {
     vertical-align: top;
   }
 
+  #skills img {
+    width: 30%;
+  }
+
   #contact {
     text-align: center;
     font-size: 25px;
@@ -184,14 +206,18 @@ hr {
     padding: 20px;
   }
 
+  #skills img {
+    width: 50%;
+  }
+
   #copyright p {
     float: left;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
   }
 
   #copyright a {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -222,6 +248,10 @@ hr {
     vertical-align: top;
   }
 
+  #skills img {
+    width: 40%;
+  }
+
   #contact-me {
     padding-left: 80px;
     padding-right: 80px;
@@ -230,7 +260,11 @@ hr {
   }
 
   .container-1 a,  #copyright p, #copyright a  {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .container-1 li {
+    margin: 0 auto;
   }
 
   .container-1 li:last-child {
